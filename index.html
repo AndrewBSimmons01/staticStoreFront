@@ -9,28 +9,34 @@
 </head>
 <body>
         <header>
+            <div class="contentWrapper">
+
         <!--login menu-->
-            <nav>
+            <nav id="utilityMenu">
                 <ul>
                     <li><a href="#"><img src="./img/facebook_20.png" alt="Facebook"  class="socialIcon" /></a></li>
                     <li><a href="#"><img src="./img/twitter_20.png" alt="Twitter"  class="socialIcon" /></a></li>
                     <li><a href="#"><img src="./img/google_plus_20.png" alt="Google"  class="socialIcon"/></a></li>
-                    <li><a href="#" class="active">login</a></li>
-                    <li><a href="#">My Basket</a></li>
+                    <li class="acctNav"><a href="#" class="active">login</a></li>
+                    <li class="acctNav"><a href="#">My Basket</a></li>
                     <li><lnput type="search" id="search" placeholder="search"></li>
                 </ul>
               </nav>
               <h1>Fromage</h1>
               <h2>Market</h2>
+              <nav>
               <ul>
                   <li><a href="#">Shop Now</a></li>
                   <li><a href="#">Cheese 101</a></li>
                   <li><a href="#">Contact</a></li>
                   <li><a href="#">Recipes</a></li>
               </ul>
+              </nav>
+              </div>
         <!--Navigation Menu-->
         </header>
 
+        <div class="contentWrapper">
         <section id="sidebar">
             <!--SidebarText-->
                 <h1>Cheese 101</h1>
@@ -70,6 +76,8 @@
                        pellentesque diam volutpat commodo. Elit scelerisque mauris pellentesque pulvinar 
                        pellentesque habitant morbi. Risus nec feugiat in fermentum. Quis viverra nibh 
                        cras pulvinar mattis nunc.</p>
+                       </section>
+                       </div>
             <!--RecipeList-->
             <br />
             <h1>Recipes</h1>
@@ -85,7 +93,7 @@
             <br />
         </section> <!--Closing sidebar section tag-->
         
-        <section id="main">
+        <section id="main" class="contentWrapper">
             <!--MainSection-->
             <h1>Shop for Cheese!</h1>
             <!--Six DIfferent Cheeses-->
@@ -130,9 +138,18 @@
                 <p>Soft RipenedSoft RipenedSoft RipenedSoft RipenedSoft RipenedSoft Ripened</p>
                 <button>order</button>
             </div>
+            <div class="clear"></div>
         </section>
+
         <footer>
             <!--LegalItems,NavigationalItems-->
+            <span>&copy;2019</span>
+            <ul>
+                <li><a href="#">Sitemap</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li>Website by Shew</li>
+            </ul>
         </footer>
 </body>
 </html>
